@@ -1,1 +1,1 @@
-# CIDS-Membership-Management
+# CIDS Membership Management
