@@ -22,7 +22,7 @@ def compute_trust(model, x, y, threshold=70, alpha=1.5, beta=2, method=0):
         The trust value based on the current challenge
     """
 
-    if method != 0 or method != 1:
+    if method != 0 and method != 1:
         raise ValueError("Invalid input for parameter 'method'. Method can only be 0 or 1.")
 
     pred_prob = model.predict_proba(x)
